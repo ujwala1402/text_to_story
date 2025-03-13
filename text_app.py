@@ -85,5 +85,5 @@ def main() -> None:
         with st.expander("Generated short story"):
             st.write(story)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
